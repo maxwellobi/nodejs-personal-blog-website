@@ -2,7 +2,7 @@ let config = {};
 
 //app settings
 config.app_name = 'Maxwell Obi';
-config.app_secret = '2max-abh4-6k10-5hjx-8gks';
+config.app_secret = process.env.APP_SECRET || '2max-abh4-6k10-5hjx-8gks';
 
 //db settings
 config.db = {};
