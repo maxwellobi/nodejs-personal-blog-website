@@ -58,14 +58,6 @@ if (app.get('env') === 'production') {
 app.use(session(session_options));
 app.use(flashSession());
 
-//get number of articles
-let Blog = require('./models/blog');
-Blog.find({deleted: false})
-.then((result) => {
-    app.locals.blogsCount = result.length;
-    debug('Number of articles retrieved ' + app.locals.blogsCount);
-});
-
 //Routes
 let login = require('./controllers/login');
 let blogs = require('./controllers/blogs');
