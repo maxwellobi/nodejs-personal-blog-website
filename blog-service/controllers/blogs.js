@@ -13,9 +13,9 @@ router.get('/all', function(req, res){
     let msg = req.flash('msg');
     if(msg.length > 0){
         data.message = msg[0];
-        data.type = 'success';
+        data.type = 'primary';
     }
-      
+
     Blog.find({deleted: false})
     .populate('category')
     .sort({date_created: 'desc'})
@@ -45,6 +45,29 @@ router.get('/:id/delete',
         .catch((err) => {
             res.json({ title: 'Error!', msg: 'Blog could not be deleted ' + err, status: 'error'});
         });
+    }
+);
+
+router.get('/:id/:action', 
+    (req, res, next) => {
+
+        req.sanitizeParams('id').escape();
+        req.sanitizeParams('action').escape();
+
+        if(req.params.action !== 'enabled' && req.params.action !== 'disabled') 
+            return next(); //would result in 404
+
+        let _ = require('lodash');
+        let blog_id = req.params.id;
+        let newstatus = _.upperFirst(req.params.action);
+        Blog.findByIdAndUpdate(blog_id, {status: newstatus}, function(err, doc){
+            if(err) return next(err);
+            else{
+                req.flash('msg', 'Blog ' +newstatus   + ' Successfully');
+                return res.redirect('/blogs/all');
+            }
+        });
+
     }
 );
 

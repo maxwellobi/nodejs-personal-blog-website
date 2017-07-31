@@ -40,10 +40,10 @@ block content
                             i(class='mdi mdi-lead-pencil', aria-hidden='true')
                         
                         if blog.status === 'Disabled'
-                            a(class='btn btn-sm btn-success btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Enable' href=  '/blogs/' + blog._id + '/enable')  
+                            a(class='btn btn-sm btn-success btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Enable' href=  '/blogs/' + blog._id + '/enabled')  
                                 i(class='mdi mdi-check', aria-hidden='true')
                         else
-                            a(class='btn btn-sm btn-success btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Disable' href=  '/blogs/' + blog._id + '/enable')  
+                            a(class='btn btn-sm btn-success btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Disable' href=  '/blogs/' + blog._id + '/disabled')  
                                 i(class='mdi mdi-close', aria-hidden='true')
 
 block scripts
