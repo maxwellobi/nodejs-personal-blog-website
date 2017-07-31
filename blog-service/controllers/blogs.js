@@ -8,29 +8,45 @@ let Blog = require('../models/blog');
 let router = express.Router();
 
 router.get('/all', function(req, res){
-
+  
+    let data = {};
+    let msg = req.flash('msg');
+    if(msg.length > 0){
+        data.message = msg[0];
+        data.type = 'success';
+    }
+      
     Blog.find({deleted: false})
     .populate('category')
     .sort({date_created: 'desc'})
     .exec((err, blogs) => {
-        if(err) next(err);
-
-        // lodash.forEach(blogs, function(blog) {
-        //   blog.content = blog.content.replace(/&quot;/g, '"')
-        //   .replace(/&#39;/g, "'")
-        //   .replace(/&lt;/g, '<')
-        //   .replace(/&gt;/g, '>')
-        //   .replace(/&amp;/g, '&');
-        // });
         
-        // console.log(blogs);
+      if(err) next(err);
+      data.blogs = blogs;
 
-        data = {};
-        data.blogs = blogs;
+      res.render('blog_all', data);
 
-        res.render('blog_all', data);
     });
+
 });
+
+router.get('/:id/delete', 
+    (req, res, next) => {
+
+        req.sanitizeParams('id').escape();
+
+        let _id = req.params.id;
+        Blog.findByIdAndUpdate(_id, {deleted: true})
+        .then((blog) => {
+            
+          if(blog) res.json({ title: 'Deleted!', msg: 'Blog has been deleted successfully', status: 'success' });
+
+        })
+        .catch((err) => {
+            res.json({ title: 'Error!', msg: 'Blog could not be deleted ' + err, status: 'error'});
+        });
+    }
+);
 
 router.get('/:id?', 
   function(req, res, next) {
@@ -69,14 +85,12 @@ router.get('/:id?',
 router.post('/:id?', 
   function(req, res, next) {
 
-    res.json(req.files);
     req.checkBody('title', 'Title of the article is required').notEmpty();
     req.checkBody('content', 'Post cannot be empty').notEmpty();
     req.checkBody('category', 'Category must be selected').notEmpty();
     req.checkBody('pubdate', 'Publish date is required or in invalid format').notEmpty().isDate();
    
     req.sanitizeBody('title').escape();
-    //req.sanitizeBody('content').escape();
     req.sanitizeBody('category').escape();
     req.sanitizeBody('pubdate').escape();
     req.sanitizeBody('pubdate').toDate();
@@ -135,19 +149,19 @@ router.post('/:id?',
 
       }else {
 
-        blog.save((err) => {
-          if(err){
-
+        blog.save()
+        .then((blog) => {
+            
+          req.flash('msg', 'Your new article was successfully created');
+          res.redirect('/blogs/all')
+        })
+        .catch((err) => {
             context.message = 'Error saving article - ' + err;
             context.type = 'danger'; 
             return res.render('blog', context);
-
-          }else{
-            req.flash('msg', 'Your new article was successfully created');
-            res.redirect('/blogs/all')
-          }
         });
-      }
+          
+      }//end if edit id exists
 
 
     }); //end vlidation check

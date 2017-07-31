@@ -6,11 +6,11 @@
     SweetAlert.prototype.init = function() {
     
         $('.delete_btn').click(function(event){
-            var _id = $(this).data('category'); 
+            var _id = $(this).data('blog'); 
             event.preventDefault();
             swal({   
                 title: "Are you sure?",   
-                text: "You are about to delete a category. All articles under this category will be deleted as well. This action cannot be undone",   
+                text: "You are about to delete a blog post.",   
                 type: "warning",   
                 allowEscapeKey: false,
                 showCancelButton: true,   
@@ -20,7 +20,7 @@
 
             }, function(){   
                 
-                $.get('/sudo/categories/' + _id + '/delete', function(data, status){
+                $.get('/blogs/' + _id + '/delete', function(data, status){
                     swal({
                         title: data.title, 
                         text: data.msg,
@@ -30,8 +30,8 @@
                     });
 
                     setInterval(function(){
-                        window.location.replace('/sudo/categories');
-                    }, 1000)
+                        window.location.replace('/blogs/all');
+                    }, 2000)
                 });
             });
         });
