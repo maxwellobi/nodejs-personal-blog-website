@@ -1,12 +1,5 @@
 var hbs = require('hbs');
 var lodash = require('lodash');
-var helper =  require('./helpers');
-
-hbs.registerHelper('blogsCount', function(){
-    
-    let app = require('../app');
-    return app.locals.blogsCount;
-});
 
 hbs.registerHelper('increment', function(index){
     return parseInt(index) + 1;
@@ -30,7 +23,7 @@ hbs.registerHelper('renderStatus', function(status){
 });
 
 hbs.registerHelper('upperCaseFirst', function(text){
-    return helper.ucFirst(text);
+    return lodash.upperFirst(text);
 });
 
 hbs.registerHelper('showNotice', function(notification, type){

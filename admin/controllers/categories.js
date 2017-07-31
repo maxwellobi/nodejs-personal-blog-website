@@ -124,13 +124,13 @@ router.get('/categories/:id/:action',
         if(req.params.action !== 'enabled' && req.params.action !== 'disabled') 
             return next();
 
-        let helper = require('../../core/helpers');
+        let _ = require('lodash');
         let category_id = req.params.id;
-        let newstatus = helper.ucFirst(req.params.action);
+        let newstatus = _.upperFirst(req.params.action);
         Category.findByIdAndUpdate(category_id, {status: newstatus}, function(err, doc){
             if(err) return next(err);
             else{
-                req.flash('msg', 'Category ' + helper.ucFirst(req.params.action) + ' Successfully');
+                req.flash('msg', 'Category ' + _.upperFirst(req.params.action) + ' Successfully');
                 return res.redirect('/sudo/categories');
             }
 

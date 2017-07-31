@@ -152,7 +152,7 @@ router.post('/resetlink',
                     debug('Reset link => ' + reset_password_url);
 
                     //fire email microservices
-                    let helpers = require('../core/helpers');
+                    let _ = require('lodash');
                     let config = require('../config');
                     let seneca = require('seneca');
 
@@ -163,7 +163,7 @@ router.post('/resetlink',
                     data.receiver_email = result.email;
                     data.receiver_name = result.fullname;
                     data.subject = 'Reset your password';
-                    data.body = 'Hello ' + helpers.ucFirst(result.first_name) + ', <br/><br/>'
+                    data.body = 'Hello ' + _.upperFirst(result.first_name) + ', <br/><br/>'
                                 + 'Use the link below to reset your password. <br/> ' + reset_password_url + '<br/><br/>'
                                 + 'Kindly ignore this email if you did not request a passord rest. <br/><br/>'
                                 + 'Best regards.';
