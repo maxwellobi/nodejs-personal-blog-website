@@ -1,0 +1,48 @@
+extends layout
+block styles
+  link(rel='stylesheet', href='/plugins/summernote/summernote.css')
+
+block content
+    div.row
+        div.col-xs-12
+            a#demo-btn-addrow(class='btn btn-outline btn-primary btn-md pull-left', href='/blogs')
+                i(class='mdi mdi-plus', aria-hidden='true') 
+                <strong>Post a new blog</strong>
+
+    
+    div(class='row m-t-15')
+        each blog in blogs
+            div(class='col-lg-3 col-md-6 col-sm-6 col-xs-12')
+                if blog.header_image
+                    img.img-responsive(alt='Article' src= blog.header_image)
+                div.white-box
+                    div.text-muted
+                        span.m-r-10
+                            i.icon-calender 
+                            = blog.pubdate
+                        a(class='text-muted m-l-10', href='') 
+                            i(class='fa fa-heart-o')  
+                             | 30
+                    h3(class='m-t-20 m-b-20') #[a(href='/blogs/' + blog._id )= blog.title]
+                    p!= (blog.content.trim().split(' ', 30) + '...' )
+                                     
+                    div.m-t-20
+                        a(class='delete_btn btn btn-sm btn-danger btn-rounded btn-outline', data-blog= blog._id, data-toggle='tooltip', data-original-title='Delete', href= '')  
+                            i(class='mdi mdi-delete', aria-hidden='true') 
+                        
+                        a(class='btn btn-sm btn-primary btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Edit', href= '')  
+                            i(class='mdi mdi-lead-pencil', aria-hidden='true')
+                        
+                        if blog.status === 'Disabled'
+                            a(class='btn btn-sm btn-success btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Enable' href= '')  
+                                i(class='mdi mdi-check', aria-hidden='true')
+                        else
+                            a(class='btn btn-sm btn-success btn-rounded btn-outline', data-toggle='tooltip', data-original-title='Disable' href= '')  
+                                i(class='mdi mdi-close', aria-hidden='true')
+
+block scripts
+    script(src='/plugins/sweetalert/sweetalert.min.js')
+    script.
+        $(document).ready(function () {
+
+        });

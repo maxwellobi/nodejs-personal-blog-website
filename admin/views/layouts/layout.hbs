@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maxwell Obi {{title}}</title>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    {{{styles}}}
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="fix-header">
+    <div class="preloader"><svg class="circular" viewBox="25 25 50 50"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /></svg></div>
+
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-static-top m-b-0">
+            <div class="navbar-header">
+                <div class="top-left-part">
+                    <a class="logo" href="/sudo/dashboard">
+                        <b><img src="/images/logo/logo.png" class="light-logo" /></b>
+                        <span class="hidden-xs"><img src="/images/logo/logo-text.png" class="light-logo" /></span> 
+                    </a>
+                </div>
+    
+                <ul class="nav navbar-top-links navbar-left">
+                    <li><a href="javascript:void(0)" class="open-close visible-xs"><i class="ti-close ti-menu"></i></a></li>
+                </ul>
+    
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="/images/maxwell_obi.png" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Maxwell</b><span class="caret"></span> </a>
+                        <ul class="dropdown-menu dropdown-user animated flipInY">
+                            <li>
+                                <div class="dw-user-box">
+                                    <div class="u-img"><img src="/images/maxwell_obi.png" alt="user" /></div>
+                                    <div class="u-text">
+                                        <h4>Maxwell Obi</h4>
+                                        <p class="text-muted">me@maxwellobi.com</p><a href="/sudo/profile" class="btn btn-danger btn-sm">View Profile</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="ti-user"></i> My Profile</a></li>                            
+                            <li><a href="#"><i class="ti-settings"></i> Configurations</a></li>
+                            <li><a href="#"><i class="ti-email"></i> Remote Trojan Setup</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/logout"><i class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav slimscrollsidebar">
+                <div class="sidebar-head"><h3><span class="fa-fw open-close"><i class="ti-menu hidden-xs"></i><i class="ti-close visible-xs"></i></span> <span class="hide-menu">Navigation</span></h3> </div>
+                <ul class="nav" id="side-menu">
+                   {{> menu}}
+                </ul>
+            </div>
+        </div>
+      
+      
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title">{{title}}</h4> 
+                    </div>
+                </div>
+             
+                {{{body}}}
+
+            </div>
+            <footer class="footer text-center"> &copy; maxwellobi.com </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/sidebar-nav.min.js"></script>
+    <script src="/js/jquery.slimscroll.js"></script>
+    <script src="/js/scripts.js"></script>
+    {{{scripts}}}
+</body>
+</html>

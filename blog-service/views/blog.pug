@@ -1,0 +1,107 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/plugins/summernote/summernote.css')
+  link(rel='stylesheet', href='/plugins/datepicker/bootstrap-datepicker.min.css')
+  link(rel='stylesheet', href='/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css')
+  link(rel='stylesheet', href='/plugins/dropify/css/dropify.min.css')
+  link(rel='stylesheet', href='/plugins/sweetalert/sweetalert.css')
+
+block content
+  div.row.white-box
+    div.col-sm-12
+      form.form-horizontal&attributes({method: 'post', onsubmit: 'return postForm()', action: ''})
+        input#csrf(type='hidden', name='_csrf', value=csrfToken)
+
+        if message
+          div(class='alert alert-' + type )= message
+
+        div(class='col-lg-3 col-md-3 col-sm-12 col-xs-12')
+
+          div.form-group 
+            div.col-xs-12
+              button(data-toggle='modal', type='button' data-target='#file-modal', data-keyboard='false', class='btn btn-outline btn-primary btn-sm btn-block')
+                i(class='mdi mdi-cloud-outline', aria-hidden='true') 
+                |UPLOAD HEADER IMAGE TO S3
+            
+          div.form-group
+            label.col-xs-12 Blog Title
+            div.col-xs-12 #[input.form-control(type='text', name='title', value=blog.title, placeholder='Enter blog title')&attributes({required: 'required'})]
+
+          div.form-group
+            label.col-xs-12 Optional Slug
+            div.col-xs-12 #[input.form-control(type='text', name='slug', value=blog.slug, placeholder='Optionally set a slug')]
+
+          div.form-group
+            label.col-xs-12 Category
+            div.col-xs-12
+              select.form-control(name='category', required='required')
+                option(value='') Select Category 
+                if categories
+                  each item in categories
+                    if blog.category
+                      option(value=item._id, selected=(item._id.toString() == blog.category ? 'selected': ''))= item.name 
+                    else 
+                      option(value=item._id)= item.name 
+
+
+          div.form-group
+            label.col-xs-12 Date to Publish
+            div.col-xs-12 
+              div.input-group #[input#datepicker.form-control(type='text', name='pubdate', value=publish_date, placeholder='Select a publish date')&attributes({required: 'required'})]
+                span.input-group-addon #[i(class='mdi mdi-calendar')]                    
+
+          div.form-group
+              label.col-xs-12 Header Img URL
+              div.col-xs-12 #[input#header_image.form-control(type='text', name='header_image', readonly='readonly' value=blog.header_image)]
+
+
+        div(class='col-lg-9 col-md-9 col-sm-12 col-xs-12')
+          
+          h3.box-title Write a blog post
+          textarea#summernote.summernote(name='content')!= blog.content
+          div.row
+              div(class='col-lg-8 col-md-8 col-sm-6 col-xs-12')
+                input#tags(type='text', name='tags', data-role='tagsinput', data-name='tags', value=blog.tags ? blog.tags.toString() : '', placeholder='Enter tags')
+                  
+
+              div(class='col-lg-4 col-md-4 col-sm-6 col-xs-12 pull-right')
+                button(type='submit' class='btn btn-block btn-danger') Save blog post
+
+
+  div#file-modal(class='modal fade', tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true', style='display:none')
+    div.modal-dialog(role='document')
+      div.modal-content
+        div.modal-header(style='background-color: #4c5667') 
+          button.close(type='button', data-dismiss='modal', aria-hidden='true') x
+          h4.modal-title(style='color: #f8f3f3 !important') Upload file to Amazon S3
+
+        form.form-horizontal&attributes({method: 'post', action: ''})
+          input#blogfile_url(type='hidden', value='')
+          div.modal-body
+            div#notice
+
+            div.form-group 
+              div.col-xs-12
+                div(class="progress progress-lg")
+                  div(class="progress-bar progress-bar-success", role='progressbar') 0%
+                input#blogfile.dropify(name='blogfile', type='file', data-max-file-size='3M')
+            
+block scripts
+  script(src='/plugins/summernote/summernote.min.js')
+  script(src='/plugins/datepicker/bootstrap-datepicker.min.js')
+  script(src='/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js')
+  script(src='/plugins/dropify/js/dropify.min.js')
+  script(src='/plugins/sweetalert/sweetalert.min.js')
+  script(src='/js/scripts.js')
+  script.
+    $(document).ready(function () {
+        $('#summernote').summernote({ height: 250, focus: true });
+        $('#datepicker').datepicker({ autoclose: true, todayHighlight: true, format: 'M dd, yyyy'});
+        $('.dropify').dropify();
+    });
+    function postForm() {
+      $('textarea[name="content"]').html($('#summernote').code());
+      $('input[name="tags"]').html($('#tags').val());
+      return true;
+    }

@@ -1,0 +1,108 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="white-box">
+            <h3 class="box-title">Categories</h3>
+            
+            <button id="demo-btn-addrow" data-toggle="modal" data-target="#category-modal" data-keyboard="false" class="btn btn-outline btn-primary btn-md"><i class="mdi mdi-plus" aria-hidden="true"></i>Add New Category</button>
+            <br/><br/>
+            {{showNotice message type}}
+            <div class="scrollable">
+                <div class="table-responsive">
+                    <table id="demo-foo-addrow" class="table m-t-15 table-hover contact-list" data-page-size="10">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Name</th>
+                                <th>Slug (Url)</th>
+                                <th>Description</th>
+                                <th>Status</th>
+                                <th>Date Modified</th>
+                                <th colspan="3">Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {{#each categories}}
+                                <tr>
+                                    <td>{{increment @index}}</td>
+                                    <td><strong>{{name}}</strong></td>
+                                    <td><a href="#">{{slug}}</a></td>
+                                    <td>{{description}}</td>
+                                    <td>{{renderStatus status}}</td>
+                                    <td>{{formatted_date_modified}}</td>
+                                    <td><a href="/sudo/categories/{{_id}}/update" data-toggle="tooltip" data-original-title="Edit"><strong><i class="ti-pencil-alt" aria-hidden="true"></i> </strong></a></td>
+
+                                    <td>
+                                        {{#ifCond status 'Enabled'}}
+                                            <a href="/sudo/categories/{{_id}}/disabled" class="text-warning" onclick="return confirm('Are you sure about disabling this category?')" data-toggle="tooltip" data-original-title="Disabled"><i class="ti-close" aria-hidden="true"></i></a>
+                                        {{else}}
+                                            <a href="/sudo/categories/{{_id}}/enabled" class="text-warning"  onclick="return confirm('Are you sure about re-enabling this category?')" data-toggle="tooltip" data-original-title="Enable"><i class="ti-check" aria-hidden="true"></i></a>
+                                        {{/ifCond}}
+                                    </td>
+
+                                    <td> <a href="#" id="delete_btn" data-category="{{_id}}" class="delete_btn text-danger" data-toggle="tooltip" data-original-title="Delete"><i class="ti-trash" aria-hidden="true"></i></a></td>
+                                </tr>
+                            {{else}}
+                                <h4 class="text-primary">No categories has been created yet </h4>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+<div id="category-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header" style="background-color: #4c5667;">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" style="color: #f8f3f3 !important;">Create new category</h4> 
+            </div>
+
+            <form class="form-horizontal" method="post" action="">
+
+                <div class="modal-body">
+                    
+                    <br>{{showNotice notification type}}<br/>
+
+                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+                    <div class="form-group">
+                        <label for="name" class="col-sm-3 control-label">Category name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="name" id="name" value="{{category.name}}" required placeholder="Category name">     
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="slug" class="col-sm-3 control-label">Optional url slug:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="slug" id="slug" value="{{category.slug}}" placeholder="Url slug">     
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="description" class="col-sm-3 control-label">Description:</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" rows="4" name="description" id="description" required placeholder="Description">{{category.description}}</textarea>     
+                            <br>
+                            <small>(150 Characters Max)</small>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <a href="/sudo/categories" class="btn btn-default">Close</a>
+                    <button type="submit" class="btn btn-danger">Save Category</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+

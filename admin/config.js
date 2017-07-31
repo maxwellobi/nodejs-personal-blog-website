@@ -1,0 +1,28 @@
+let config = {};
+
+//app settings
+config.app_name = 'Maxwell Obi';
+config.app_secret = '2max-abh4-6k10-5hjx-8gks';
+
+//db settings
+config.db = {};
+config.db.host = process.env.MONGO_HOST ||  'localhost' ;
+config.db.port = process.env.MONGO_PORT || '27017';
+config.db.user = process.env.MONGO_USER || 'root';
+config.db.pass = process.env.MONGO_PASS || 'chameleon';
+config.db.database = process.env.MONGO_DATABASE || 'maxwell_site_db';
+config.db.auth_source = process.env.MONGO_AUTHSOURCE || 'admin';
+
+//redis settings
+config.redis = {};
+config.redis.host = process.env.REDIS_HOST || '127.0.0.1';
+config.redis.port = process.env.REDIS_PORT || '6379';
+
+//Microservices config
+config.services = {};
+config.services.main = process.env.MAIN_SERVICE_PORT || '3000';
+config.services.email = process.env.EMAIL_SERVICE_PORT || '6000';
+config.services.blog = process.env.BLOG_SERVICE_PORT || '7000';
+config.services.blog_host = process.env.BLOG_SERVICE_HOST || 'http://localhost:7000';
+
+module.exports = config;

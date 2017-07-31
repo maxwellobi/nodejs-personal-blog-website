@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/style.css')
+
+    block styles
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  body.fix-header
+    div.preloader
+      svg.circular&attributes({viewBox: '25 25 50 50'})
+        circle.path&attributes({cx: '50', cy: '50', r: '20', fill: 'none', 'stroke-width': '2', 'stroke-miterlimit': '10'})
+      
+    div.wrapper
+      div.page-wrapper
+        div.container-fluid
+          block content
+    
+    script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+
+    block scripts
+    
+    script.
+      $(document).ready(function () {
+        $(function () {
+            $(".preloader").fadeOut();
+        });
+      });
