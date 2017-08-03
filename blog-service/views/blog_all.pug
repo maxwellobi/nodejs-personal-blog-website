@@ -30,7 +30,8 @@ block content
                             span.label.label-primary Enabled
 
                     h3(class='m-t-20 m-b-20') #[a(href='/blogs/' + blog._id )= blog.title]
-                    p!= (blog.content.trim().split(' ', 30).join(' ') + '...' )
+                    - article = blog.content.trim().replace(/<\/?[^>]+(>|$)/g, "")
+                    p!= (article.split(' ', 20).join(' ') + '...' )
                                      
                     div.m-t-20
                         a(class='delete_btn btn btn-sm btn-danger btn-rounded btn-outline', data-blog= blog._id, data-toggle='tooltip', data-original-title='Delete', href= '#')  
