@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/images/favicon.png" />
+  
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://victorthemes.com/themes/signy/xmlrpc.php">
+
+<title>Page not found &#8211; Signy</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Signy &raquo; Feed" href="http://victorthemes.com/themes/signy/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Signy &raquo; Comments Feed" href="http://victorthemes.com/themes/signy/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/victorthemes.com\/themes\/signy\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://victorthemes.com/themes/signy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.0.8' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wcqi-css-css'  href='http://victorthemes.com/themes/signy/wp-content/plugins/woocommerce-quantity-increment/assets/css/wc-quantity-increment.css?ver=4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://victorthemes.com/themes/signy/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/inc/theme-options/cs-framework/assets/css/font-awesome.min.css?ver=4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/bootstrap.min.css?ver=3.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='signy-simple-line-icons-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/simple-line-icons.css?ver=2.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-datepicker-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/bootstrap-datepicker.min.css?ver=1.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='signy-own-carousel-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/owl.carousel.css?ver=2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='right-sidebar-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/right-sidebar.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slimmenu-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/slimmenu.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='signy-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/styles.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='signy-responsive-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/css/responsive.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='signy-google-fonts-css'  href='//fonts.googleapis.com/css?family=PT+Serif%3A400%2C700%7CMontserrat%3A400%2C700%7CRoboto+Slab%3A400%2C700&#038;subset=latin' type='text/css' media='all' />
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/plugins/woocommerce-quantity-increment/assets/js/wc-quantity-increment.min.js?ver=4.8'></script>
+<link rel='https://api.w.org/' href='http://victorthemes.com/themes/signy/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://victorthemes.com/themes/signy/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://victorthemes.com/themes/signy/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8" />
+<meta name="generator" content="WooCommerce 3.0.8" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	</head>
+
+<body class="error404">
+<div id="sgny-page-warp" class="sgny-page-warp">
+  <div class="sgny-pusher">
+    <div class="scrollbar-inner sgny-content">
+      <header class="sgny-header-area">
+                  <aside class="sgny-left-sidebar" style="background:url(http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/left-sidebar.jpg">
+                      <div class="sgny-left-sidebar-inner">
+
+              <!-- WPML  -->
+                             <!-- WPML  -->
+
+              <div class="sgny-l-sidebar-header">
+                  <!-- ====  This menu only for mobil start==== \-->
+    <!--/ ====  This menu only for mobil====-->
+  <div class="sgny-mobil_menu_warp">
+    <div class="menu-menu-1-container"><ul id="sgny-mobil_menu" class="slimmenu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76 dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true">Home <span class=""></span></a>
+<ul role="menu" class=" sub-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-116"><a href="http://victorthemes.com/themes/signy/home-main/">Home Main</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://victorthemes.com/themes/signy/home-masonry/">Home Masonry</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="http://victorthemes.com/themes/signy/home-list/">Home List</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://victorthemes.com/themes/signy/about-us/">About Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-438" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-438"><a href="http://victorthemes.com/themes/signy/category/food/">Categories</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80 dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true">Post Format <span class=""></span></a>
+<ul role="menu" class=" sub-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-330"><a href="http://victorthemes.com/themes/signy/favourite-holiday-destinations/">Shop Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-424"><a href="http://victorthemes.com/themes/signy/the-best-working-environment/">Standard Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-97"><a href="http://victorthemes.com/themes/signy/peace-bentch-the-city-snap/">Gallery Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-95"><a href="http://victorthemes.com/themes/signy/modern-city-with-amazing/">Link Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-100"><a href="http://victorthemes.com/themes/signy/explore-the-pacific-northwest/">Image Slider Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-94"><a href="http://victorthemes.com/themes/signy/stay-hungry-stay-foolish/">Quote Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-425"><a href="http://victorthemes.com/themes/signy/amazing-albums-are-here/">Audio Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-426"><a href="http://victorthemes.com/themes/signy/modern-city-with-blue-sea/">Video Post</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-224 dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true">Shop <span class=""></span></a>
+<ul role="menu" class=" sub-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-337"><a href="http://victorthemes.com/themes/signy/shop/">Shop</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-336"><a href="http://victorthemes.com/themes/signy/cart/">Cart</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-335"><a href="http://victorthemes.com/themes/signy/checkout/">Checkout</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="http://victorthemes.com/themes/signy/my-account/">My Account</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://victorthemes.com/themes/signy/contact/">Contact</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="http://victorthemes.com/themes/signy/404">404</a></li>
+</ul></div>  </div>
+  <!--/ main menu area  end-->
+  
+  <!-- Main menu area start\-->
+  <div class="sgny-menu-hover ">
+    <div class="sgny-menu-nav-shap-warp">
+      <span class="sgny-menu-nav-shap"></span>
+      <span class="sgny-menu-nav-shap"></span>
+      <span class="sgny-menu-nav-shap"></span>
+    </div>
+    <!-- Main menu start\-->
+    <div class="sgny-nav-warp">
+      <nav class="sgny-main-menu">
+        <div class="menu-menu-1-container"><ul id="sgny-menu" class="sgny-list-unstyled"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76 dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true">Home <span class=""></span></a>
+<ul role="menu" class=" sub-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-116"><a href="http://victorthemes.com/themes/signy/home-main/">Home Main</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://victorthemes.com/themes/signy/home-masonry/">Home Masonry</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="http://victorthemes.com/themes/signy/home-list/">Home List</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://victorthemes.com/themes/signy/about-us/">About Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-438"><a href="http://victorthemes.com/themes/signy/category/food/">Categories</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80 dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true">Post Format <span class=""></span></a>
+<ul role="menu" class=" sub-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-330"><a href="http://victorthemes.com/themes/signy/favourite-holiday-destinations/">Shop Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-424"><a href="http://victorthemes.com/themes/signy/the-best-working-environment/">Standard Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-97"><a href="http://victorthemes.com/themes/signy/peace-bentch-the-city-snap/">Gallery Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-95"><a href="http://victorthemes.com/themes/signy/modern-city-with-amazing/">Link Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-100"><a href="http://victorthemes.com/themes/signy/explore-the-pacific-northwest/">Image Slider Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-94"><a href="http://victorthemes.com/themes/signy/stay-hungry-stay-foolish/">Quote Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-425"><a href="http://victorthemes.com/themes/signy/amazing-albums-are-here/">Audio Post</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-426"><a href="http://victorthemes.com/themes/signy/modern-city-with-blue-sea/">Video Post</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-224 dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true">Shop <span class=""></span></a>
+<ul role="menu" class=" sub-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-337"><a href="http://victorthemes.com/themes/signy/shop/">Shop</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-336"><a href="http://victorthemes.com/themes/signy/cart/">Cart</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-335"><a href="http://victorthemes.com/themes/signy/checkout/">Checkout</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="http://victorthemes.com/themes/signy/my-account/">My Account</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://victorthemes.com/themes/signy/contact/">Contact</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="http://victorthemes.com/themes/signy/404">404</a></li>
+</ul></div>      </nav>
+      <!--search form start\-->
+            <div class="sgny-search-form-warp">
+        <div class="sgny-serch-form">
+          <form role="search" method="get" id="searchform" action="http://victorthemes.com/themes/signy/" class="searchform search-form" >
+	<div>
+		<input class="search-field" type="text" name="s" id="s" placeholder="Search..." />
+		<button type="submit" id="searchsubmit" class="search-submit"><span class="icon-magnifier"></span></button>
+	</div>
+</form>
+
+        </div>
+      </div>
+          </div>
+  </div><!--/ main menu area  end-->
+                </div>
+                
+<!-- Left sidebar footer start\-->
+<div class="sgny-l-sidebar-footer">
+	<div class="sgny-l-sidebar-text">
+						<h2>404 Page</h2>
+							<p>I’m guessing that you don&#039;t ended up here because, You’re looking for the revolutionary blogging experience keep searching on right side. </p>
+			
+					<div class="sgny-fix sgny-l-sidebar-social">
+				<span>
+					Follow Me				</span>
+			  				  <ul class="list-inline sgny-social-one  sgny-socials-5940fc6d3fc5e"><li><a href="https://www.facebook.com" class="icon-fa-facebook"><i class="fa fa-facebook"></i></a></li><li><a href="https://www.twitter.com" class="icon-fa-twitter"><i class="fa fa-twitter"></i></a></li><li><a href="https://vine.co/" class="icon-fa-vine"><i class="fa fa-vine"></i></a></li><li><a href="https://www.pinterest.com" class="icon-fa-pinterest"><i class="fa fa-pinterest"></i></a></li><li><a href="https://www.instagram.com" class="icon-fa-instagram"><i class="fa fa-instagram"></i></a></li></ul>			  			</div>
+	</div>
+</div><!--/ Left sidebar footer  end-->
+            </div>
+          </aside>
+        <div class="sgny-center-container_area sgny-center-header-area">
+          <div class="sgny-container">
+            <div class="row">
+              <div class="col-xs-8">
+                
+<div class="sgny-logo" style="padding-top:;padding-bottom:;" ><a href="http://victorthemes.com/themes/signy">
+	<img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/logo-2x.png" width="68" height="43" alt="Signy" class="retina-logo"><img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/logo-1.png" width="68" height="43" alt="Signy" class="default-logo">	</a>
+</div>
+              </div>
+              <div class="text-right  col-xs-4">
+                                  <div class="sgny-r-sidebar-btn-warp">
+                    <div id="sgny-trigger-effects" class="column">
+                      <button class="sgny-sidebar-open-btn" data-effect="sgny-effect-right_sidebar">
+                        <span class="sgny-side-trigger-warp">
+                          <span class="sgny-side-trigger-single"></span>
+                          <span class="sgny-side-trigger-single"></span>
+                          <span class="sgny-side-trigger-single"></span>
+                          <span class="sgny-side-trigger-single"></span>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+	<div class="sgny-center-container_area">
+		<div class="sgny-container  sgny-main-content">
+			<div class="text-center sgny-page-404-warp">
+									<div class="sgny-404-text">
+						<h1>404</h1>
+						<h2>Oops! Page Not Found!</h2>
+						<p>Sorry, but the page you were trying to view does not exist.</p>
+					</div>
+        
+				<!--404 Search form start\-->
+				<div class="sgny-404-search-form">
+					<form role="search" method="get" id="searchform" action="http://victorthemes.com/themes/signy/" class="searchform search-form" >
+						<input class="search-field" type="search" name="s" id="s" placeholder="Enter Keyword">
+						<button class="search-submit" id="searchsubmit" type="submit">Search</button>
+					</form>
+				</div>
+            							<a class="sgny-404-homepage-link" href="http://victorthemes.com/themes/signy">Go Back to Home</a><!--/end-->
+									</div>
+		</div>
+	</div>
+<!-- footer area start\-->
+<footer class="sgny-center-container_area sgny-footer-area footer-widget-active">
+	<div class="text-center sgny-container">
+				<div class="sgny-footer-widget-warp">
+			<div class="sgny-footer-widget  widget_text">
+				<div class="textwidget">
+					<div class="footer-widget-area">
+	<div class="row">
+		<div class=" sgny-widget sgny-logo-widget">    <div class="sgny-footer-logo">
+      <a href=""><img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/footer-logo.png" alt="WE LOVE TO CREATE THE WP BLOG"/></a>
+      </div>
+   <h6>WE LOVE TO CREATE THE WP BLOG</h6>   </div> <!-- end widget --><div class=" sgny-widget sgny-footer-Instagram"><h4 class="widget-title">@signyblog</h4>				<h4><a href="//instagram.com/defatchdemo/" rel="me" target="_blank">@defatchdemo</a> </h4>
+				<ul class="list-inline sgny-foo-Instagram-images instagram-size-small"><li class=""><a href="//instagram.com/p/BNLvYcpAkPD/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15099517_139562439853528_6626108843703140352_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BNLvXtPgsQD/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15034908_373878512963231_3367841426258788352_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BNLvWymgTVO/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/14714572_249371222146158_8921094167002611712_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BNLvV-PgIGk/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15101702_226669711100325_6154046007492476928_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BM8zaMggZt0/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15048049_1062255197227464_4767644600296800256_n.jpg"  alt="Instagram Image" class=""/></a></li></ul></div> <!-- end widget --><div class=" sgny-widget sgny-text-widget"><ul class="list-inline sgny-social-three  sgny-socials-5940fc6d4175b"><li><a href="https://www.twitter.com" class="icon-fa-twitter"><i class="fa fa-twitter"></i></a></li><li><a href="https://vine.co" class="icon-fa-vine"><i class="fa fa-vine"></i></a></li><li><a href="https://www.pinterest.com" class="icon-fa-pinterest"><i class="fa fa-pinterest"></i></a></li><li><a href="https://www.instagram.com" class="icon-fa-instagram"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.youtube.com" class="icon-fa-youtube-play"><i class="fa fa-youtube-play"></i></a></li></ul></div> <!-- end widget -->	</div>
+</div>
+				</div>
+			</div>
+		</div>
+				<!--Footer copyright start/-->
+					<p class="sgny-copyright">
+				© 2017 <a href="https://themeforest.net/user/victorthemes/portfolio">VictorThemes</a>- Elight Themeforest Author.		  </p>
+			</div>
+</footer>
+</div>
+<!-- right sidebar start /-->
+<div class="sgny-effect-right_sidebar sgny-right-sidebar" id="menu-8">
+	<div class="scrollbar-inner sgny-right-sidebar-scroll">
+		<div class="sgny-right-sidebar-inner">
+			<div id="search-2" class=" sgny-side-widget sgny-widget widget_search"><form role="search" method="get" id="searchform" action="http://victorthemes.com/themes/signy/" class="searchform search-form" >
+	<div>
+		<input class="search-field" type="text" name="s" id="s" placeholder="Search..." />
+		<button type="submit" id="searchsubmit" class="search-submit"><span class="icon-magnifier"></span></button>
+	</div>
+</form>
+
+</div> <!-- end widget --><div id="text-6" class=" sgny-side-widget sgny-widget widget_text">			<div class="textwidget"><img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/about.jpg">
+<p>I’m so happy to see you!! My amazing memories in life seems to be take place decided to blog.</p></div>
+		</div> <!-- end widget --><div id="sgny-text-widget-4" class=" sgny-side-widget sgny-widget sgny-text-widget"><h4 class="widget-title">Follow Us</h4><ul class="list-inline sgny-social-four sgny-widget-social  sgny-socials-5940fc6d42502"><li><a href="https://www.twitter.com" target="_blank" class="icon-fa-twitter"><i class="fa fa-twitter"></i></a></li><li><a href="https://facebook.com" target="_blank" class="icon-fa-facebook"><i class="fa fa-facebook"></i></a></li><li><a href="https://www.instagram.com" target="_blank" class="icon-fa-instagram"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.pinterest.com" target="_blank" class="icon-fa-pinterest"><i class="fa fa-pinterest"></i></a></li></ul></div> <!-- end widget --><div id="sgny_newsletter_widget-2" class=" sgny-side-widget sgny-widget sgny_newsletter_widget">      <!-- single widget start /-->
+      <aside class="sgny-side-widget  widget_mc4wp_form_widget">
+        <h4 class="sgny-widget-title">Newsletter</h4>
+        <form id="mc4wp-form-3" class="mc4wp-form mc4wp-form-894" method="post" data-id="894">
+          <div class="mc4wp-form-fields">
+            <p>
+              <label>
+                Subscribe to our free weekly newsletters and never miss any thing in it.              </label>
+              </p>
+              <script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.1.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-112" method="post" data-id="112" data-name="" ><div class="mc4wp-form-fields"><p>
+	<input type="email" name="EMAIL" placeholder="Your email address" required />
+</p>
+
+<p>
+	<input type="submit" value="Sign up" />
+</p><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497431149" /><input type="hidden" name="_mc4wp_form_id" value="112" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->          </div>
+          <div class="mc4wp-response"></div>
+        </form>
+      </aside>
+   </div> <!-- end widget --><div id="categories-3" class=" sgny-side-widget sgny-widget widget_categories"><h4 class="widget-title">Category</h4><label class="screen-reader-text" for="cat">Category</label><select  name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="42">Food</option>
+	<option class="level-0" value="6">Health</option>
+	<option class="level-0" value="9">Lifestyle</option>
+	<option class="level-0" value="4">Music</option>
+	<option class="level-0" value="7">Travel</option>
+	<option class="level-0" value="17">Video</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://victorthemes.com/themes/signy/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</div> <!-- end widget --><div id="sgny-instagram-feed-2" class=" sgny-side-widget sgny-widget sgny-footer-Instagram"><h4 class="widget-title">@signyblog</h4>				<h4><a href="//instagram.com/defatchdemo/" rel="me" target="_blank">@defatchdemo</a> </h4>
+				<ul class="list-inline sgny-foo-Instagram-images instagram-size-small"><li class=""><a href="//instagram.com/p/BNLvYcpAkPD/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15099517_139562439853528_6626108843703140352_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BNLvXtPgsQD/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15034908_373878512963231_3367841426258788352_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BNLvWymgTVO/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/14714572_249371222146158_8921094167002611712_n.jpg"  alt="Instagram Image" class=""/></a></li><li class=""><a href="//instagram.com/p/BNLvV-PgIGk/" target="_blank"  class=""><img src="//scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/15101702_226669711100325_6154046007492476928_n.jpg"  alt="Instagram Image" class=""/></a></li></ul></div> <!-- end widget --><div id="archives-3" class=" sgny-side-widget sgny-widget widget_archive"><h4 class="widget-title">Archives</h4>		<label class="screen-reader-text" for="archives-dropdown-3">Archives</label>
+		<select id="archives-dropdown-3" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='http://victorthemes.com/themes/signy/2017/05/'> May 2017 </option>
+	<option value='http://victorthemes.com/themes/signy/2017/03/'> March 2017 </option>
+	<option value='http://victorthemes.com/themes/signy/2013/05/'> May 2013 </option>
+
+		</select>
+		</div> <!-- end widget --><div id="sgny-text-widget-3" class=" sgny-side-widget sgny-widget sgny-text-widget">    <aside class="sgny-widget_popular_post ">
+      <h4 class="sgny-widget-title">Popular Posts</h4>       <div class="sgny-widget-popularpost">
+        <a href="http://victorthemes.com/themes/signy/category/lifestyle/" class="sgny-single_widge_popu_post">
+        <img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/1-5.jpg" alt="Lifestyle">          <div class="text-center sgny-popu_post-caption">
+            <span>Lifestyle</span>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <aside class="sgny-widget_popular_post ">
+      <h4 class="sgny-widget-title"></h4>       <div class="sgny-widget-popularpost">
+        <a href="http://victorthemes.com/themes/signy/category/food/" class="sgny-single_widge_popu_post">
+        <img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/2-3.jpg" alt="Food">          <div class="text-center sgny-popu_post-caption">
+            <span>Food</span>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <aside class="sgny-widget_popular_post ">
+      <h4 class="sgny-widget-title"></h4>       <div class="sgny-widget-popularpost">
+        <a href="http://victorthemes.com/themes/signy/category/travel/" class="sgny-single_widge_popu_post">
+        <img src="http://victorthemes.com/themes/signy/wp-content/uploads/2017/05/3-1.jpg" alt="Travel">          <div class="text-center sgny-popu_post-caption">
+            <span>Travel</span>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+</div> <!-- end widget -->		</div>
+	</div>
+</div>
+</div>
+</div>
+<!--/===XXXXXXXXXXX MAIN LAYOUT END XXXXXXXXXXX====-->
+<style id="signy-inline-style" type="text/css">.sgny-socials-5940fc6d42502.sgny-social-two li a, .sgny-l-sidebar-social .sgny-socials-5940fc6d42502.sgny-social-one li a, .sgny-socials-5940fc6d42502.sgny-social-three a i, .sgny-socials-5940fc6d42502.sgny-social-four li a {color:#ffffff;}.sgny-l-sidebar-social .sgny-socials-5940fc6d42502.sgny-social-one li a:hover, .sgny-socials-5940fc6d42502.sgny-social-two li a:hover, .sgny-socials-5940fc6d42502.sgny-social-three li a i:hover, .sgny-socials-5940fc6d42502.sgny-social-four li a:hover {color:#efefef;}.sgny-socials-5940fc6d42502.sgny-social-four li a, .sgny-socials-5940fc6d42502.sgny-social-two a {background-color:#0a0a0a;}.sgny-socials-5940fc6d42502.sgny-social-two li a:hover, .sgny-socials-5940fc6d42502.sgny-social-four li a:hover {background-color:#383838;}.sgny-socials-5940fc6d42502.sgny-social-two a, .sgny-socials-5940fc6d42502.sgny-social-four li a:hover {border-color:#0a0a0a;}</style><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><link rel='stylesheet' id='signy-default-style-css'  href='http://victorthemes.com/themes/signy/wp-content/themes/signy/style.css?ver=4.8' type='text/css' media='all' />
+<style id='signy-default-style-inline-css' type='text/css'>
+.no-class {}.layout-boxed {}body, .sgny-single-crosshtml-content p, #comments.sgny-comments-area.comments-area .comment-content p, input, select, textarea, .wpcf7 p, .wpcf7 input[type="submit"]{font-family:"PT Serif", Arial, sans-serif;font-style:normal;}.sgny-main-menu ul#sgny-menu li a{font-family:"Montserrat", Arial, sans-serif;font-style:normal;}.sgny-main-menu .sub-menu li a{font-family:"Montserrat", Arial, sans-serif;font-style:normal;}h1, h2, h3, h4, h5, h6,.sgny-single-crosshtml-content h1, #comments.sgny-comments-area.comments-area .comment-content h1, .sgny-l-sidebar-text h2, .sgny-contact-heading h2, .woocommerce-account .woocommerce .sgny-woo-acount-for-colum > h2, .sgny-single-crosshtml-content h2, #comments.sgny-comments-area.comments-area .comment-content h2, .cart_totals h2, .sgny-pin-btn, .sgny-post-inner-heading h3, .sgny-post-inner-heading h3 a, .sgny-single-crosshtml-content h3, #comments.sgny-comments-area.comments-area .comment-content h3, .sgny-single-crosshtml-content h4, #comments.sgny-comments-area.comments-area .comment-content h4, .sgny-author-desc-warp h4, .sgny-author-desc-warp h4 a, .sgny-single-crosshtml-content h5, #comments.sgny-comments-area.comments-area .comment-content h5, .sgny-single-crosshtml-content h6, #comments.sgny-comments-area.comments-area .comment-content h6, .sgny-footer-social-info > h6, .sgny-rel-post-title{font-family:"PT Serif", Arial, sans-serif;font-style:normal;}.your-custom-class{font-family:"Roboto Slab", Arial, sans-serif;font-style:normal;}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/victorthemes.com\/themes\/signy\/wp-json\/","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/themes\/signy\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/signy\/wp-content\/themes\/signy\/assets\/fonts\/glyphicons-halflings-regular.eot?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/victorthemes.com\/themes\/signy\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.0.8'></script>
+<script type='text/javascript' src='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/themes\/signy\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/signy\/wp-content\/themes\/signy\/assets\/fonts\/glyphicons-halflings-regular.eot?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.0.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/themes\/signy\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/signy\/wp-content\/themes\/signy\/assets\/fonts\/glyphicons-halflings-regular.eot?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//victorthemes.com/themes/signy/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.0.8'></script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/js/plugins.js?ver=1.0'></script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/js/scripts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/themes/signy/assets/js/jquery.validate.min.js?ver=1.9.0'></script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-includes/js/wp-embed.min.js?ver=4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.1.3'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='http://victorthemes.com/themes/signy/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.1.3'></script>
+<![endif]-->
+</body>
+</html>
