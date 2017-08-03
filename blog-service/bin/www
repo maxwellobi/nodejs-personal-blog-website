@@ -6,7 +6,7 @@
 
 var app = require('../app');
 var config = require('../config');
-var debug = require('debug')('article-service:server');
+var debug = require('debug')('blog-service:server');
 var http = require('http');
 
 /**

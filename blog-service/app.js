@@ -47,6 +47,8 @@ if (app.get('env') === 'production') {
 
 app.use(session(session_options));
 app.use(flashSession());
+
+//middleware to check if user is logged in
 app.use(function(req, res, next) {
   if(req.session.user && req.session.logged_in) next();        
   else{

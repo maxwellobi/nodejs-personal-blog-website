@@ -7,7 +7,8 @@ let Blog = require('../models/blog');
 
 let router = express.Router();
 
-router.get('/all', function(req, res){
+router.get('/all', 
+  function(req, res){
   
     let data = {};
     let msg = req.flash('msg');
