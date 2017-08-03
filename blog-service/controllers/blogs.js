@@ -119,7 +119,7 @@ router.post('/:id?',
     req.sanitizeBody('pubdate').escape();
     req.sanitizeBody('pubdate').toDate();
     req.sanitizeBody('tags').escape();
-    req.sanitizeBody('header_image').escape();
+    //req.sanitizeBody('header_image').escape();
 
     context = {};
     context.csrfToken = req.csrfToken();

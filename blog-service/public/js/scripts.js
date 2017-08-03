@@ -39,7 +39,6 @@ $(document).ready(function(){
           }else alert('Failed ' + data);
       },
       error: function(){
-        alert('failed');
         $('.progress-bar').text('0%');
         $('.progress-bar').width('0%');
       },
