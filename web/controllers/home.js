@@ -12,7 +12,7 @@ router.get('/',
 
         Blog.find({deleted: false})
         .populate('category')
-        .sort({date_created: 'asc'})
+        .sort({date_created: 'desc'})
         .exec((err, blogs) => {
 
             if(err) next(err);
