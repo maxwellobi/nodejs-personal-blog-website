@@ -180,7 +180,7 @@ router.post('/:id?',
           res.redirect('/blogs/all')
         })
         .catch((err) => {
-            context.message = 'Error saving article - ' + err;
+            context.message = 'Error saving article - possible duplicate slug';
             context.type = 'danger'; 
             return res.render('blog', context);
         });
