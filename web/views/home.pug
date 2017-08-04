@@ -39,11 +39,16 @@ block content
           
       .blog-pagi
         .wp-pagenavi
-          span.current 1
-          a.page.larger(title='Page 2', href='page/2/index.html') 2
-          a.nextpostslink(rel='next', href='page/2/index.html')
-            | NEXT
-            i.fa.fa-long-arrow-right
+          - var pages = count / perPage
+          if currentPage > 1 
+            a.previouspostslink(rel='previous', href='/page/' + (parseInt(currentPage) - 1))
+              i.fa.fa-long-arrow-left 
+              | PREVIOUS
+              
+          if currentPage < pages 
+            a.nextpostslink(rel='next', href='/page/' + (parseInt(currentPage) + 1))
+              | NEXT
+              i.fa.fa-long-arrow-right
 
       br
 

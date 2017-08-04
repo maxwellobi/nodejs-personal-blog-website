@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 var home = require('./controllers/home');
 var blog = require('./controllers/blog');
 
-app.use('/', home);
+app.use('/', home.route);
 app.use('/', blog);
 
 // catch 404 and forward to error handler
