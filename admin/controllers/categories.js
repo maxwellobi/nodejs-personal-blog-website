@@ -247,4 +247,4 @@ router.post('/categories',
     }
 );
 
-module.exports = router;
+module.exports.route = router;

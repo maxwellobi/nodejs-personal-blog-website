@@ -67,7 +67,7 @@ let resetpassword = require('./controllers/resetpassword');
 
 app.use('/', login.router, resetpassword);
 app.use('/sudo', login.check_logged_in);
-app.use('/sudo', dashboard, categories, blogs);
+app.use('/sudo', dashboard, categories.route, blogs);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
