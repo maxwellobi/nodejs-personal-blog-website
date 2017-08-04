@@ -1,0 +1,16 @@
+extends layout
+
+block content
+ .container.main-content
+  .text-center.page-404-warp
+    .err-text
+      h1 404
+      h2 Oops! Page Not Found!
+      p Sorry, but the page you were trying to view does not exist.
+    
+    .err-search-form
+      form#searchform.searchform.search-form(role='search', method='get', action='')
+        input#s.search-field(type='search', name='s', placeholder='Enter Keyword')
+        button#searchsubmit.search-submit(type='submit') Search
+    a.err-homepage-link(href='/') Go Back to Home
+    

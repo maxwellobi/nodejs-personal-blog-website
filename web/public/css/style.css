@@ -371,7 +371,7 @@ a, button, input[type="submit"], .li_qu_format-content-warp {
 ............................ TYPOGRAPHY ......................
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 *************************************************************/
-.main-menu ul#menu li a, .l-sidebar-social > span, .readmore-btn, .side-widget.widget_mc4wp_form_widget input[type="submit"], #mobil_menu, .comment-form.comment-respond #commentform #submit, .woocommerce #review_form #respond #submit, .woocommerce-account .woocommerce button, .woocommerce-account .woocommerce input[type="submit"], .right-sidebar-inner .search-form input.search-submit[type="submit"], .footer-widget-warp .search-form input.search-submit[type="submit"], .contact-form button, .404-search-form button, .wpcf7 .file-upload .file-btn, .wpcf7 input[type="submit"], .wpcf7 button[type="submit"], .woocommerce #respond input#submit.alt,
+.main-menu ul#menu li a, .l-sidebar-social > span, .readmore-btn, .side-widget.widget_mc4wp_form_widget input[type="submit"], #mobil_menu, .comment-form.comment-respond #commentform #submit, .woocommerce #review_form #respond #submit, .woocommerce-account .woocommerce button, .woocommerce-account .woocommerce input[type="submit"], .right-sidebar-inner .search-form input.search-submit[type="submit"], .footer-widget-warp .search-form input.search-submit[type="submit"], .contact-form button, .err-search-form button, .wpcf7 .file-upload .file-btn, .wpcf7 input[type="submit"], .wpcf7 button[type="submit"], .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt,
 .woocommerce button.button.alt,
 .woocommerce input.button.alt, .woocommerce-checkout .woocommerce form.checkout_coupon input.button[type="submit"],
@@ -390,7 +390,7 @@ a, button, input[type="submit"], .li_qu_format-content-warp {
   font-weight: 500;
 }
 
-.post-meta,  .posts-pagination-warp .nav-links .page-numbers, .footer-social-info > h6, .copyright, .side-widget.widget_mc4wp_form_widget input[type="email"], .about-bio, .about-bio a, .post-share-text, .rel-post-date, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .quote-post blockquote cite, .quote-post blockquote a, .404-text p, .single-product.woocommerce .entry-summary .sku_wrapper, .single-product.woocommerce .entry-summary .sku_wrapper a, .single-product.woocommerce .entry-summary .posted_in, .single-product.woocommerce .entry-summary .posted_in a, .single-product.woocommerce .entry-summary .tagged_as, .single-product.woocommerce .entry-summary .tagged_as a,
+.post-meta,  .posts-pagination-warp .nav-links .page-numbers, .footer-social-info > h6, .copyright, .side-widget.widget_mc4wp_form_widget input[type="email"], .about-bio, .about-bio a, .post-share-text, .rel-post-date, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .quote-post blockquote cite, .quote-post blockquote a, .err-text p, .single-product.woocommerce .entry-summary .sku_wrapper, .single-product.woocommerce .entry-summary .sku_wrapper a, .single-product.woocommerce .entry-summary .posted_in, .single-product.woocommerce .entry-summary .posted_in a, .single-product.woocommerce .entry-summary .tagged_as, .single-product.woocommerce .entry-summary .tagged_as a,
 .single-product.woocommerce-page .entry-summary .sku_wrapper,
 .single-product.woocommerce-page .entry-summary .sku_wrapper a,
 .single-product.woocommerce-page .entry-summary .posted_in,
@@ -454,7 +454,7 @@ body, .single-crosshtml-content,
   font-size: 11px;
 }
 
-.post-meta, .post-by, .copyright, #mobil_menu, .inner-photo-caption, .inner-photo-caption a, .meta-tags a, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .contact-form button, .404-search-form button, .wpcf7 input[type="submit"], .wpcf7 button[type="submit"], .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta > time, .woocommerce-checkout .woocommerce form.checkout_coupon input.button[type="submit"],
+.post-meta, .post-by, .copyright, #mobil_menu, .inner-photo-caption, .inner-photo-caption a, .meta-tags a, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .contact-form button, .err-search-form button, .wpcf7 input[type="submit"], .wpcf7 button[type="submit"], .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta > time, .woocommerce-checkout .woocommerce form.checkout_coupon input.button[type="submit"],
 .woocommerce-checkout .woocommerce form.login input.button[type="submit"],
 .woocommerce-checkout .woocommerce form.register input.button[type="submit"], .woocommerce-cart table.shop_table tbody td.actions .coupon input.button[type="submit"],
 .woocommerce-cart form table.shop_table tbody td.actions .coupon + input.button[type="submit"], .woocommerce-cart .cart_totals table.shop_table .woocommerce-shipping-calculator button.button[type="submit"], .woocommerce-account .woocommerce button, .woocommerce-account .woocommerce input[type="submit"] {
@@ -465,7 +465,7 @@ body, .single-crosshtml-content,
   font-size: 13px;
 }
 
-.posts-pagination-warp .nav-links .page-numbers, .footer-Instagram > h4, .side-widget .textwidget p, .side-widget.widget_mc4wp_form_widget p, .side-widget.widget_mc4wp_form_widget label, .author-desc-warp p, .comments-area.comments-area .comment-content, .single-contact-info h5, .single-contact-info h5 a, .404-text p, .404-search-form input[type="search"], .404-homepage-link, .woocommerce ul.products li.product .woocommerce-LoopProduct-link,
+.posts-pagination-warp .nav-links .page-numbers, .footer-Instagram > h4, .side-widget .textwidget p, .side-widget.widget_mc4wp_form_widget p, .side-widget.widget_mc4wp_form_widget label, .author-desc-warp p, .comments-area.comments-area .comment-content, .single-contact-info h5, .single-contact-info h5 a, .err-text p, .err-search-form input[type="search"], .err-homepage-link, .woocommerce ul.products li.product .woocommerce-LoopProduct-link,
 .woocommerce-page ul.products li.product .woocommerce-LoopProduct-link, .woocommerce ul.products li.product .price,
 .woocommerce-page ul.products li.product .price, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce ul.products li.product .added_to_cart.wc-forward,
 .woocommerce-page ul.products li.product .add_to_cart_button,
@@ -522,7 +522,7 @@ sgny-about-signature a, .relat-post-heading, .comments-area.comments-area .comme
   font-size: 28px;
 }
 
-.404-text h2 {
+.err-text h2 {
   font-size: 30px;
 }
 
@@ -604,7 +604,7 @@ a.previouspostslink {
 }
 
 body, .side-widget select, .side-widget.widget_mc4wp_form_widget input[type="email"], .single_widge_popu_post .popu_post-caption span, .about-name, .about-name a, .about-signature,
-sgny-about-signature a, .post-inner-heading h3, .post-inner-heading h3 a, .meta-tags a, .author-desc-warp h4, .author-desc-warp h4 a, .comments-area.comments-area .comments-meta h4, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .comment-form.comment-respond .comment-reply-title, .404-text p, .404-homepage-link, .woocommerce ul.products li.product .woocommerce-LoopProduct-link,
+sgny-about-signature a, .post-inner-heading h3, .post-inner-heading h3 a, .meta-tags a, .author-desc-warp h4, .author-desc-warp h4 a, .comments-area.comments-area .comments-meta h4, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .comment-form.comment-respond .comment-reply-title, .err-text p, .err-homepage-link, .woocommerce ul.products li.product .woocommerce-LoopProduct-link,
 .woocommerce-page ul.products li.product .woocommerce-LoopProduct-link, .woocommerce #review_form #respond p {
   line-height: 26px;
 }
@@ -621,15 +621,15 @@ sgny-about-signature a, .post-inner-heading h3, .post-inner-heading h3 a, .meta-
   line-height: 32px;
 }
 
-.side-widget.widget_mc4wp_form_widget p, .side-widget.widget_mc4wp_form_widget label, .single_widge_popu_post .popu_post-caption span, .post-inner-heading h6, .post-inner-heading h6 a, .404-text p, .404-search-form input[type="search"], .woocommerce-account .woocommerce .woortrig-btn-info {
+.side-widget.widget_mc4wp_form_widget p, .side-widget.widget_mc4wp_form_widget label, .single_widge_popu_post .popu_post-caption span, .post-inner-heading h6, .post-inner-heading h6 a, .err-text p, .err-search-form input[type="search"], .woocommerce-account .woocommerce .woortrig-btn-info {
   letter-spacing: 0.2px;
 }
 
-.l-sidebar-social > span, .side-widget.widget_mc4wp_form_widget input[type="email"], .404-text h1 {
+.l-sidebar-social > span, .side-widget.widget_mc4wp_form_widget input[type="email"], .err-text h1 {
   letter-spacing: 0.3px;
 }
 
-.main-menu ul#menu li a, .serch-form input, .post-meta, .readmore-btn, .post-by, .post-by span.post-author-name a, .posts-pagination-warp .nav-links .page-numbers.prev, .posts-pagination-warp .nav-links .page-numbers.next, .footer-social-info > h6, .pin-btn, .side-widget .search-form input[type="search"], .side-widget.widget_mc4wp_form_widget input[type="submit"], #mobil_menu, .big-letter, .rel-post-date, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .comment-form.comment-respond #commentform #submit, .woocommerce #review_form #respond #submit, .woocommerce-account .woocommerce button, .woocommerce-account .woocommerce input[type="submit"], .right-sidebar-inner .search-form input.search-submit[type="submit"], .footer-widget-warp .search-form input.search-submit[type="submit"], .quote-post blockquote cite, .quote-post blockquote a, .404-search-form button, .wpcf7 input[type="submit"], .wpcf7 button[type="submit"], .single-product.woocommerce .entry-summary .sku_wrapper, .single-product.woocommerce .entry-summary .sku_wrapper a, .single-product.woocommerce .entry-summary .posted_in, .single-product.woocommerce .entry-summary .posted_in a, .single-product.woocommerce .entry-summary .tagged_as, .single-product.woocommerce .entry-summary .tagged_as a,
+.main-menu ul#menu li a, .serch-form input, .post-meta, .readmore-btn, .post-by, .post-by span.post-author-name a, .posts-pagination-warp .nav-links .page-numbers.prev, .posts-pagination-warp .nav-links .page-numbers.next, .footer-social-info > h6, .pin-btn, .side-widget .search-form input[type="search"], .side-widget.widget_mc4wp_form_widget input[type="submit"], #mobil_menu, .big-letter, .rel-post-date, .comments-area.comments-area .comments-meta .says, .comments-area.comments-area .comments-meta .comments-date, .comment-form.comment-respond #commentform #submit, .woocommerce #review_form #respond #submit, .woocommerce-account .woocommerce button, .woocommerce-account .woocommerce input[type="submit"], .right-sidebar-inner .search-form input.search-submit[type="submit"], .footer-widget-warp .search-form input.search-submit[type="submit"], .quote-post blockquote cite, .quote-post blockquote a, .err-search-form button, .wpcf7 input[type="submit"], .wpcf7 button[type="submit"], .single-product.woocommerce .entry-summary .sku_wrapper, .single-product.woocommerce .entry-summary .sku_wrapper a, .single-product.woocommerce .entry-summary .posted_in, .single-product.woocommerce .entry-summary .posted_in a, .single-product.woocommerce .entry-summary .tagged_as, .single-product.woocommerce .entry-summary .tagged_as a,
 .single-product.woocommerce-page .entry-summary .sku_wrapper,
 .single-product.woocommerce-page .entry-summary .sku_wrapper a,
 .single-product.woocommerce-page .entry-summary .posted_in,
@@ -670,7 +670,7 @@ sgny-about-signature a, .post-inner-heading h3, .post-inner-heading h3 a, .meta-
   letter-spacing: 1px;
 }
 
-.404-text h1 {
+.err-text h1 {
   line-height: 200px;
   font-size: 250px;
 }
@@ -3194,23 +3194,23 @@ span.wpcf7-form-control-wrap.your-message textarea {
   padding-bottom: 114px;
 }
 
-.404-text h1, .404-text h2 {
+.err-text h1, .err-text h2 {
   color: #222;
 }
 
-.404-text h2 {
+.err-text h2 {
   margin: 12px 0;
 }
 
-.404-text p {
+.err-text p {
   color: #888;
 }
 
-.404-search-form {
+.err-search-form {
   margin-top: 42px;
 }
 
-.404-search-form ::-webkit-input-placeholder {
+.err-search-form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   opacity: 1;
   filter: alpha(opacity=100);
@@ -3219,7 +3219,7 @@ span.wpcf7-form-control-wrap.your-message textarea {
   color: #999999;
 }
 
-.404-search-form ::-moz-placeholder {
+.err-search-form ::-moz-placeholder {
   /* Firefox 19+ */
   opacity: 1;
   filter: alpha(opacity=100);
@@ -3228,7 +3228,7 @@ span.wpcf7-form-control-wrap.your-message textarea {
   color: #999999;
 }
 
-.404-search-form :-ms-input-placeholder {
+.err-search-form :-ms-input-placeholder {
   /* IE 10+ */
   opacity: 1;
   filter: alpha(opacity=100);
@@ -3237,7 +3237,7 @@ span.wpcf7-form-control-wrap.your-message textarea {
   color: #999999;
 }
 
-.404-search-form :-moz-placeholder {
+.err-search-form :-moz-placeholder {
   /* Firefox 18- */
   opacity: 1;
   filter: alpha(opacity=100);
@@ -3246,7 +3246,7 @@ span.wpcf7-form-control-wrap.your-message textarea {
   color: #999999;
 }
 
-.404-search-form input[type="search"] {
+.err-search-form input[type="search"] {
   border: 1px solid #ececec;
   height: 50px;
   padding: 0 19px;
@@ -3275,7 +3275,7 @@ span.wpcf7-form-control-wrap.your-message textarea {
   background-color: rgba(34, 34, 34, 0.8);
 }
 
-.404-search-form button {
+.err-search-form button {
   background-color: #222222;
   border: medium none;
   color: #ffffff;
@@ -3286,18 +3286,18 @@ span.wpcf7-form-control-wrap.your-message textarea {
   vertical-align: middle;
 }
 
-.404-search-form button:hover, .404-search-form button:focus {
+.err-search-form button:hover, .err-search-form button:focus {
   background-color: rgba(34, 34, 34, 0.8);
 }
 
-.404-homepage-link {
+.err-homepage-link {
   color: #222222;
   display: inline-block;
   margin-top: 42px;
   text-decoration: underline;
 }
 
-.404-homepage-link:hover, .404-homepage-link:focus {
+.err-homepage-link:hover, .err-homepage-link:focus {
   color: rgba(34, 34, 34, 0.8);
 }
 
@@ -4611,14 +4611,14 @@ object {max-width: 100%;}
     float: none;
   }
   
-  .404-search-form input[type="search"] {
+  .err-search-form input[type="search"] {
     width: 100%;
   }
-  .404-search-form button {
+  .err-search-form button {
     margin-left: 0;
     width: 100%;
   }
-  .404-text h1 {
+  .err-text h1 {
     font-size: 160px;
     line-height: 110px;
   }
@@ -4678,7 +4678,7 @@ object {max-width: 100%;}
     text-align: right;
   }
   
-  .404-text h1 {
+  .err-text h1 {
     font-size: 200px;
     line-height: 150px;
   }
