@@ -1,0 +1,77 @@
+extends layout
+
+block content
+  .container.main-content
+    .single-post-area
+      article#post_1.single-p-post
+        .text-center.post-header
+          .text-uppercase.post-meta
+            span.post-date= blog.pubdate
+            |
+            | -
+            |
+            span.post-in
+              if blog.tags
+                for tag in blog.tags
+                    a(href=`/tags/${tag.trim().split(' ').join('-')}`)= tag
+                    | 
+
+          h2.post-title= blog.title
+        if blog.header_image
+          .post-media
+            a(href='#')
+              img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='850', height='520', src= blog.header_image, alt='')
+        .fix.entry-content.single-p-entry-content !{blog.content}
+
+          .post-footer.single-p-footer
+            .meta-tags
+            .fix.single-p-foo-info
+              .text-uppercase.post-share-text Share This Post
+
+              .post-foo-social.single-p-social
+                ul.list-inline
+                  li
+                    a.icon-fa-facebook(href='', title='Share On Facebook', target='_blank')
+                      i.fa.fa-facebook
+                  li
+                    a.icon-fa-twitter(href='', title='Share On Twitter', target='_blank')
+                      i.fa.fa-twitter
+                  li
+                    a.icon-fa-linkedin(href='', title='Share On Linkedin', target='_blank')
+                      i.fa.fa-linkedin
+      .fix.author-bio
+        .author-avatar
+          img.avatar.avatar-130.photo(alt='', src='/images/maxwell_obi.png', height='130', width='130')
+        .fix.author-desc-warp
+          h4 I'm #[a.author-name(href='/') Maxwell Obi]
+          p An entrepreneur and software engineer having profound experience in applications development and enterprise based solutions. I have a desire to be part of the African innovation wave that will hit the world.
+          
+          ul.list-inline.author-socail
+            li
+              a(href='https://www.facebook.com/obi.maxwell.e', target='_blank')
+                i.fa.fa-facebook
+            li
+              a(href='https://twitter.com/obi_maxwell', target='_blank')
+                i.fa.fa-twitter
+            li
+              a(href='https://www.instagram.com/maxwell_obi/', target='_blank')
+                i.fa.fa-instagram
+            li
+              a(href='https://www.linkedin.com/in/maxwellobi/', target='_blank')
+                i.fa.fa-linkedin
+          
+      
+      .fix.single-pager-links
+        .text-left.prev-post-link
+          if(previous_post)
+            a(href='/' + previous_post.slug, title= previous_post.title)= previous_post.title
+        .text-right.next-post-link
+          if(next_post)
+            a(href='/' + next_post.slug, title= next_post.title)= next_post.title
+  
+  .container
+    .comment-form-section
+      #comments.comments-area.comments-area
+        .comments-section
+           
+                                        

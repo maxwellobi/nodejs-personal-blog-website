@@ -18,10 +18,21 @@ router.get('/',
             if(err) next(err);
             data.blogs = blogs;
 
-            //res.json(data);
             res.render('home', data);
         });
         
+});
+
+router.get('/about', 
+    function(req, res, next) {
+
+        res.render('about', { title: 'About Maxwell Obi'});
+});
+
+router.get('/contact', 
+    function(req, res, next) {
+
+        res.render('contact', { title: 'Maxwell Obi\'s Contact'});
 });
 
 module.exports = router;

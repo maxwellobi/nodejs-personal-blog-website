@@ -1803,6 +1803,7 @@ span.post-in ul.post-categories{
 .single-post-area {
   border-bottom: 1px solid #f0f0f0;
   padding-bottom: 18px;
+  padding-top: 30px;
 }
 
 .single-post-area .post-media .pin-btn{
