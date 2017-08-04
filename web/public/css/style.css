@@ -98,7 +98,7 @@ html:not(.not-touch)  .right-sidebar-scroll::-webkit-scrollbar-thumb {
     width: 0;
 }
 
-.effect-right_sidebar .page-warp {
+.effect-right_sidebar.page-warp {
     -webkit-perspective: 1500px;
             perspective: 1500px;
     -webkit-perspective-origin: 0 50%;
@@ -108,11 +108,11 @@ html:not(.not-touch)  .right-sidebar-scroll::-webkit-scrollbar-thumb {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
-.effect-right_sidebar .right-sidebar-open .pusher {
+.effect-right_sidebar.right-sidebar-open .pusher {
     -webkit-transform: translate3d(-400px, 0px, 0px);
             transform: translate3d(-400px, 0px, 0px);
 }
-.effect-right_sidebar .right-sidebar {
+.effect-right_sidebar.right-sidebar {
     -webkit-transform: translate3d(100%, 0px, 0px);
             transform: translate3d(100%, 0px, 0px);
     -webkit-transform-origin: left 50% 0;
@@ -120,7 +120,7 @@ html:not(.not-touch)  .right-sidebar-scroll::-webkit-scrollbar-thumb {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
-.effect-right_sidebar .right-sidebar-open .effect-right_sidebar .right-sidebar {
+.effect-right_sidebar.right-sidebar-open .effect-right_sidebar.right-sidebar {
     -webkit-transform: translate3d(100%, 0px, 0px);
             transform: translate3d(100%, 0px, 0px);
     -webkit-transition: -webkit-transform 0.5s ease 0s;
@@ -129,7 +129,7 @@ html:not(.not-touch)  .right-sidebar-scroll::-webkit-scrollbar-thumb {
     transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
     visibility: visible;
 }
-.effect-right_sidebar .right-sidebar:after {
+.effect-right_sidebar.right-sidebar:after {
     display: none;
 }
 .no-csstransforms3d .pusher, .no-js .pusher {

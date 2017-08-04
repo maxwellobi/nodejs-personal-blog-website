@@ -8,8 +8,9 @@ html(lang='en-US')
     link(rel='stylesheet', href='/css/font-awesome.min.css')
     link(rel='stylesheet', href='/css/slimmenu.min.css')
     link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/sweetalert/sweetalert.css')
   body.page-template-default.page
-    #page-warp.page-warp
+    #page-warp.page-warp.effect-right_sidebar
       div.pusher
         div.scrollbar-inner.content
           header.header-area
@@ -62,68 +63,11 @@ html(lang='en-US')
               p.copyright
                 a(href='/') © Personal opinions of #[strong Maxwell Obi] (Entrepreneur & Software Engineer)
                 
-        #menu-8.effect-right_sidebar.right-sidebar
-          .scrollbar-inner.right-sidebar-scroll
-            .right-sidebar-inner
-              #search-2.side-widget.widget.widget_search
-                form#searchform.searchform.search-form(role='search', method='get', action='')
-                  div
-                    input#s.search-field(type='text', name='s', placeholder='Search...')
-                    button#searchsubmit.search-submit(type='submit')
-                      span.icon-magnifier
-							
-              #text-6.side-widget.widget.widget_text
-                .textwidget
-                  img(src='')
-                  p I’m so happy to see you!! My amazing memories in life seems to be take place decided to blog.
-							
-              #text-widget-4.side-widget.widget.text-widget
-                h4.widget-title Follow me
-                ul.list-inline.social-four.widget-social.socials-5940fb60d2b5f
-                  li
-                    a.icon-fa-twitter(href='https://www.twitter.com/', target='_blank')
-                      i.fa.fa-twitter
-                  li
-                    a.icon-fa-facebook(href='https://facebook.com/', target='_blank')
-                      i.fa.fa-facebook
-                  li
-                    a.icon-fa-instagram(href='https://www.instagram.com/', target='_blank')
-                      i.fa.fa-instagram
+        include includes/sidebar
 
-              #newsletter_widget-2.side-widget.widget.newsletter_widget
-                aside.side-widget.widget_mc4wp_form_widget
-                  h4.widget-title Newsletter
-                  form#mc4wp-form-3.mc4wp-form.mc4wp-form-894(method='post', data-id='894')
-                    .mc4wp-form-fields
-                      p
-                        label Subscribe to my weekly newsletters and never miss any thing. 
-                      form#mc4wp-form-1.mc4wp-form.mc4wp-form-112(method='post', data-id='112', data-name='')
-                        .mc4wp-form-fields
-                          p
-                            input(type='email', name='EMAIL', placeholder='Your email address', required='')
-                          p
-                            input(type='submit', value='Sign up')
-                        .mc4wp-response
-                      .mc4wp-response
-              
-              #categories-3.side-widget.widget.widget_categories
-                h4.widget-title Category
-                label.screen-reader-text(for='cat') Category
-                select#cat.postform(name='cat')
-                  option(value='-1') Select Category
-                  option.level-0(value='42') Food
-                  option.level-0(value='6') Health
-                  option.level-0(value='9') Lifestyle
-
-              #archives-3.side-widget.widget.widget_archive
-                h4.widget-title Archives
-                label.screen-reader-text(for='archives-dropdown-3') Archives
-                select#archives-dropdown-3(name='archive-dropdown', onchange='document.location.href=this.options[this.selectedIndex].value;')
-                  option(value='') Select Month
-                  option(value='../2017/05/index.html')  May 2017 
-                  option(value='../2017/03/index.html')  March 2017 
-                  option(value='../2013/05/index.html')  May 2013 
-    
     script(src='https://code.jquery.com/jquery-3.2.1.min.js')
     script(type='text/javascript', src='/js/plugins.js')
     script(type='text/javascript', src='/js/script.js')
+    script(type='text/javascript', src='/sweetalert/sweetalert.min.js')
+    if scripts 
+      != scripts
