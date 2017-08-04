@@ -20,9 +20,10 @@ config.redis.port = process.env.REDIS_PORT || '6379';
 
 //Microservices config
 config.services = {};
-config.services.main = process.env.MAIN_SERVICE_PORT || '3000';
-config.services.email = process.env.EMAIL_SERVICE_PORT || '6000';
-config.services.blog = process.env.BLOG_SERVICE_PORT || '7000';
-config.services.blog_host = process.env.BLOG_SERVICE_HOST || 'http://localhost:7000';
+config.services.web = process.env.WEB_PORT || '3000';
+config.services.admin = process.env.MAIN_SERVICE_PORT || '4000';
+config.services.email = process.env.EMAIL_SERVICE_PORT || '5000';
+config.services.blog = process.env.BLOG_SERVICE_PORT || '6000';
+config.services.blog_host = process.env.BLOG_SERVICE_HOST || 'http://localhost:6000';
 
 module.exports = config;

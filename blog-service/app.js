@@ -54,7 +54,7 @@ app.use(function(req, res, next) {
   else{
     res.send(`
       <script>
-        window.top.location.href = '${config.services.main_host}/logout';
+        window.top.location.href = '${config.services.admin_host}/logout';
       </script>`
     );
   }
