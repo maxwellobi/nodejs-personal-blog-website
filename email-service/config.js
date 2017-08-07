@@ -14,7 +14,7 @@ config.redis.port = process.env.REDIS_PORT || '6379';
 
 //microservices config
 config.services = {};
-config.services.admin = process.env.MAIN_SERVICE_PORT || '4000';
+config.services.admin = process.env.ADMIN_SERVICE_PORT || '4000';
 config.services.email = process.env.EMAIL_SERVICE_PORT || '5000';
 
 module.exports = config;

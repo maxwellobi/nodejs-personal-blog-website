@@ -21,7 +21,7 @@ config.redis.port = process.env.REDIS_PORT || '6379';
 //Microservices config
 config.services = {};
 config.services.web = process.env.WEB_PORT || '3000';
-config.services.admin = process.env.MAIN_SERVICE_PORT || '4000';
+config.services.admin = process.env.ADMIN_SERVICE_PORT || '4000';
 config.services.email = process.env.EMAIL_SERVICE_PORT || '5000';
 config.services.blog = process.env.BLOG_SERVICE_PORT || '6000';
 config.services.blog_host = process.env.BLOG_SERVICE_HOST || 'http://localhost:6000';
