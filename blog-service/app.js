@@ -50,6 +50,7 @@ app.use(flashSession());
 
 //middleware to check if user is logged in
 app.use(function(req, res, next) {
+  debug('Session ID: ' + req.session.id );
   if(req.session.user && req.session.logged_in) next();        
   else{
     res.send(`
