@@ -42,7 +42,7 @@ var session_options = {
 debug(`app environment is ${app.get('env')}`);
 if (app.get('env') === 'production') {
   app.set('trust proxy', 1) // trust first proxy
-  session_options.cookie.secure = true // serve secure cookies
+  //session_options.cookie.secure = true // serve secure cookies
 }
 
 app.use(session(session_options));
