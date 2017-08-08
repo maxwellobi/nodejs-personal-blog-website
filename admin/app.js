@@ -37,7 +37,7 @@ app.use(csurf({ cookie: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 var session_options = {
-  cookie: { domain:'maxwellobi.com' },
+  cookie: {},
   resave: false,
   secret: config.app_secret,
   store: new redisStore({
