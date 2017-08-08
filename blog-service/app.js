@@ -27,7 +27,7 @@ var session = require('express-session');
 var redisStore = require('connect-redis')(session);
 var flashSession = require('connect-flash');
 var session_options = {
-  cookie: {},
+  cookie: { domain:'maxwellobi.com' },
   resave: false,
   secret: config.app_secret,
   store: new redisStore({
