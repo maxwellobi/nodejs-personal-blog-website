@@ -27,7 +27,7 @@ var session = require('express-session');
 var redisStore = require('connect-redis')(session);
 var flashSession = require('connect-flash');
 var session_options = {
-  cookie: {},
+  cookie: { domain:'.maxwellobi.com' },
   resave: false,
   secret: config.app_secret,
   store: new redisStore({
@@ -41,7 +41,7 @@ var session_options = {
 
 debug(`app environment is ${app.get('env')}`);
 if (app.get('env') === 'production') {
-  app.set('trust proxy', 1) // trust first proxy
+  //app.set('trust proxy', 1) // trust first proxy
   //session_options.cookie.secure = true // serve secure cookies
 }
 
