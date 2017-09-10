@@ -23,14 +23,14 @@ router.get('/:slug',
             async.parallel({
                 
                 next_post: (callback) => {
-                    Blog.findOne({_id: {$gt: blog._id}}, 'slug title')
+                    Blog.findOne({_id: {$gt: blog._id}, deleted: false}, 'slug title')
                     .sort({_id: 1 })
                     .limit(1)
                     .exec(callback);
                 },
 
                 last_post: (callback) => {
-                    Blog.findOne({_id: {$lt: blog._id}}, 'slug title')
+                    Blog.findOne({_id: {$lt: blog._id}, deleted: false}, 'slug title')
                     .sort({_id: -1 })
                     .limit(1)
                     .exec(callback);
